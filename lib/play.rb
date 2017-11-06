@@ -42,3 +42,5 @@ def play(board)
     turn(board)
   end
 end
+
+#Once you get all the tests passing, your `#play` loop should be looking pretty good. However, there are two issues with it. First, the turns do not switch between "X" and "O" tokens. Second, the game does not terminate when a player wins. Take a moment and brainstorm––what are some ways in which we could tell our game to switch tokens according to whose turn it is? How could we determine if and when a certain player has won?
